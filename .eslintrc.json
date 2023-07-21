@@ -8,6 +8,7 @@
   "parserOptions": {
     "project": "./tsconfig.json"
   },
+  "ignorePatterns": ["src/components/ui/*.tsx"],
   "rules": {
     "react/require-default-props": "off"
   }
